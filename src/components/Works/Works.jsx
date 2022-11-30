@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import "./Works.css";
 import Upwork from "../../img/Upwork.png";
+import Airbnb from "../../img/airbnb.png";
+import Predifast from "../../img/predifast1.png";
+import Acertus from "../../img/Acertus_1.png";
 import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -25,14 +25,10 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+           These are some of my amazing clients I worked / working  for.
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+           Most of them a I worked are for front end.
+            
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -54,19 +50,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+           <a href="https://www.upwork.com/"> <img src={Upwork} alt="" /></a>
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+           <a href="https://www.airbnb.co.in/"> <img src={Airbnb} alt="" /></a> 
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <a href="http://predifast.com/"><img src={Predifast} alt="" /></a>
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+           <a href="https://acertusdelivers.com/">  <img src={Acertus} alt="" /></a>
+          </div>
+          <div className="w-secCircle">
+            <a href="https://www.fiverr.com/"><img src={Fiverr} alt="" /></a>
           </div>
         </motion.div>
         {/* background Circles */}

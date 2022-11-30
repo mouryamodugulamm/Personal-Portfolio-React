@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume1 from './resume1.pdf';
 
 const Services = () => {
   // context
@@ -27,11 +27,11 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          Find out the technologies which you need me for !
           <br />
-          ispum is simpley dummy text of printing
+         Download my CV to look perticulars and  get in touch.
         </spane>
-        <a href={Resume} download>
+        <a href={Resume1} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -59,7 +59,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            detail={"Html, Css, JavaScript,TypeScript,NextJs, React, Nodejs, Express"}
           />
         </motion.div>
         {/* 3rd */}
@@ -72,7 +72,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Had 3 years experience in building sites with MUI , ANTD, ReactStrap, BootStrap,Tailwind css  "
             }
             color="rgba(252, 166, 31, 0.45)"
           />
